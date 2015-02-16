@@ -1,0 +1,15 @@
+Package: euleR
+Type: Package
+Title: Solutions for Euler problems in R and C++
+Version: 0.1
+Date: 2015-02-15
+Author: Andreas Keller Leth Laursen
+Maintainer: Andreas Keller Leth Laursen <andreas.keller@gmail.com>
+Description: Solutions for all Euler problems hosted on projecteuler.net.
+    Solutions are provided both in R and C++ with microbenchmark used for bench-
+    marking.
+License: Test
+LinkingTo: Rcpp
+Imports:
+    Rcpp,
+    microbenchmark
